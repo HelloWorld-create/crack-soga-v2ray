@@ -2,7 +2,6 @@
  A cracked version of soga v2ray backend
 
 > 破解版可能存在各种未知的风险，请自行判断后使用，本人不对使用本软件产生的各种后果负责。
-# Just hack for fun, 本项目永久停止更新，请支持正版。
 
 # 本版本是肮脏的破解版本，只是自己学习使用，请支持原版
 
@@ -19,6 +18,10 @@
 ## 完整教程
 
 [doc.sprov.xyz](https://doc.sprov.xyz/)
+
+## 先屏蔽host
+echo '127.0.0.1       soga.sprov.xyz' | sudo tee -a /etc/hosts
+echo '127.0.0.1       doc.sprov.xyz' | sudo tee -a /etc/hosts
 
 ## 简单安装
 
